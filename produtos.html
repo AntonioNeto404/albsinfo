@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - ALBS Info</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="ALBS Info Logo">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#services">Serviços</a></li>
+                    <li><a href="produtos.html" class="active">Produtos</a></li>
+                    <li><a href="index.html#about">Sobre Nós</a></li>
+                    <li><a href="index.html#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumbs adicionados -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><span class="current">Produtos</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Nossos Produtos</h1>
+            <p>Equipamentos e acessórios de qualidade para sua empresa ou uso pessoal</p>
+        </div>
+    </section>
+
+    <section class="product-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="category-btn active" data-filter="todos">Todos</button>
+                <button class="category-btn" data-filter="computadores">Computadores</button>
+                <button class="category-btn" data-filter="notebooks">Notebooks</button>
+                <button class="category-btn" data-filter="perifericos">Periféricos</button>
+                <button class="category-btn" data-filter="rede">Rede</button>
+                <button class="category-btn" data-filter="acessorios">Acessórios</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="product-grid">
+                <!-- Computadores -->
+                <div class="product-card" data-category="computadores">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Computador Desktop">
+                        <div class="product-tag">Destaque</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Computador Desktop i5</h3>
+                        <p class="product-description">Intel Core i5, 16GB RAM, SSD 512GB, Windows 11</p>
+                        <div class="product-price">
+                            <span class="price">R$ 3.499,00</span>
+                            <span class="installments">12x de R$ 291,58 sem juros</span>
+                        </div>
+                        <a href="#" class="btn btn-primary product-btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="computadores">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Computador Desktop">
+                    </div>
+                    <div class="product-info">
+                        <h3>Computador Desktop i7</h3>
+                        <p class="product-description">Intel Core i7, 32GB RAM, SSD 1TB, GeForce RTX 3060, Windows 11</p>
+                        <div class="product-price">
+                            <span class="price">R$ 5.999,00</span>
+                            <span class="installments">12x de R$ 499,91 sem juros</span>
+                        </div>
+                        <a href="#" class="btn btn-primary product-btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+
+                <!-- Notebooks -->
+                <div class="product-card" data-category="notebooks">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Notebook">
+                        <div class="product-tag">Destaque</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Notebook Ultrafino</h3>
+                        <p class="product-description">Intel Core i5, 8GB RAM, SSD 256GB, Tela 15.6", Windows 11</p>
+                        <div class="product-price">
+                            <span class="price">R$ 4.299,00</span>
+                            <span class="installments">12x de R$ 358,25 sem juros</span>
+                        </div>
+                        <a href="#" class="btn btn-primary product-btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="notebooks">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Notebook">
+                    </div>
+                    <div class="product-info">
+                        <h3>Notebook Profissional</h3>
+                        <p class="product-description">Intel Core i7, 16GB RAM, SSD 512GB, Tela 15.6" Full HD, Windows 11 Pro</p>
+                        <div class="product-price">
+                            <span class="price">R$ 6.499,00</span>
+                            <span class="installments">12x de R$ 541,58 sem juros</span>
+                        </div>
+                        <a href="#" class="btn btn-primary product-btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+
+                <!-- Periféricos -->
+                <div class="product-card" data-category="perifericos">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Monitor">
+                    </div>
+                    <div class="product-info">
+                        <h3>Monitor LED 24"</h3>
+                        <p class="product-description">Full HD, HDMI, VGA, Ajuste de Altura</p>
+                        <div class="product-price">
+                            <span class="price">R$ 999,00</span>
+                            <span class="installments">10x de R$ 99,90 sem juros</span>
+                        </div>
+                        <a href="#" class="btn btn-primary product-btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="perifericos">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Teclado e Mouse">
+                        <div class="product-tag">Promoção</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kit Teclado e Mouse Sem Fio</h3>
+                        <p class="product-description">Conexão USB, Bateria de longa duração</p>
+                        <div class="product-price">
+                            <span class="old-price">R$ 229,00</span>
+                            <span class="price">R$ 179,00</span>
+                            <span class="installments">3x de R$ 59,66 sem juros</span>
+                        </div>
+                        <a href="#" class="btn btn-primary product-btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+
+                <!-- Rede -->
+                <div class="product-card" data-category="rede">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Roteador">
+                    </div>
+                    <div class="product-info">
+                        <h3>Roteador Wi-Fi Dual Band</h3>
+                        <p class="product-description">AC1200, 4 Antenas, Gigabit</p>
+                        <div class="product-price">
+                            <span class="price">R$ 349,00</span>
+                            <span class="installments">5x de R$ 69,80 sem juros</span>
+                        </div>
+                        <a href="#" class="btn btn-primary product-btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="rede">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Switch">
+                    </div>
+                    <div class="product-info">
+                        <h3>Switch 16 portas Gigabit</h3>
+                        <p class="product-description">16 portas 10/100/1000Mbps, Plug and Play</p>
+                        <div class="product-price">
+                            <span class="price">R$ 599,00</span>
+                            <span class="installments">6x de R$ 99,83 sem juros</span>
+                        </div>
+                        <a href="#" class="btn btn-primary product-btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+
+                <!-- Acessórios -->
+                <div class="product-card" data-category="acessorios">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="HD Externo">
+                    </div>
+                    <div class="product-info">
+                        <h3>HD Externo 1TB</h3>
+                        <p class="product-description">USB 3.0, Compatível com Windows e Mac</p>
+                        <div class="product-price">
+                            <span class="price">R$ 379,00</span>
+                            <span class="installments">5x de R$ 75,80 sem juros</span>
+                        </div>
+                        <a href="#" class="btn btn-primary product-btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="acessorios">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Webcam">
+                        <div class="product-tag">Novo</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Webcam HD 1080p</h3>
+                        <p class="product-description">Com microfone integrado, USB, compatível com Windows e Mac</p>
+                        <div class="product-price">
+                            <span class="price">R$ 199,00</span>
+                            <span class="installments">3x de R$ 66,33 sem juros</span>
+                        </div>
+                        <a href="#" class="btn btn-primary product-btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-info-section">
+        <div class="container">
+            <div class="info-cards">
+                <div class="info-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Entrega em Todo Brasil</h3>
+                    <p>Enviamos para todas as regiões do país com segurança e rapidez</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Garantia de Qualidade</h3>
+                    <p>Todos os produtos com garantia e suporte técnico</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Pagamento Facilitado</h3>
+                    <p>Diversas opções de pagamento, parcelamento em até 12x</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>Suporte Especializado</h3>
+                    <p>Equipe técnica pronta para ajudar na instalação e configuração</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta product-cta">
+        <div class="container">
+            <h2>Não encontrou o que procurava?</h2>
+            <p>Entre em contato e solicite um orçamento personalizado para sua necessidade.</p>
+            <a href="index.html#contact" class="btn btn-primary">Fale Conosco</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="ALBS Info Logo">
+                    <p>Soluções em Tecnologia</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="index.html#services">Serviços</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="index.html#about">Sobre Nós</a></li>
+                        <li><a href="index.html#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Nossos Serviços</h3>
+                    <ul>
+                        <li>Desenvolvimento Web</li>
+                        <li>Suporte Técnico</li>
+                        <li>Segurança Digital</li>
+                        <li>Redes e Infraestrutura</li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ALBS Info. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
